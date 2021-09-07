@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sayyyyyy's portfolio</title>
+
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- 外部ファイル読み込み -->
+    <link href = "css/style.css" rel = "stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script type ="text/javascript" src = "js/main.js"></script>
+
+    <link rel = "icon" type = "image/ico" href = "image/favicon16.ico">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-wp-preserve="%3Cscript%20src%3D%22https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fpace%2F1.0.2%2Fpace.min.js%22%3E%3C%2Fscript%3E" data-mce-resize="false" data-mce-placeholder="1" class="mce-object" width="20" height="20" alt="<script>" title="<script>" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/themes/black/pace-theme-center-circle.min.css" />
+
+</head>
+<body class = "index">
+    <div id ="loading">
+        <div class="loading-in">
+        </div>
+    </div>
+    <div class = "wrapper">
+        <header class = "page-header">
+            <p class = "title"><a href = "index.html">sayyyyyy's portfolio</a></p>
+            <button type ="button" id ="menu-btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+            <nav>
+                <ul class = "main-nav">
+                    <li><a href = "#about">About</a></li>
+                    <li><a href = "#skill">Skills</a></li>
+                    <li><a href = "#work">Works</a></li>
+                    <li><a href = "#contact">Contact</a></li>
+                    <li><a href = "https://github.com/sayyyyyy"><i class="fa fa-github font-icon"></i></a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id ="portfolio">
+            <div class ="main-img">
+                <img id = "p-img" src ="image/background.jpeg">
+                <h2 id ="my_portfolio" class = "animate__animated animate__fadeInUp">My <br>Portfolio</h2>
+            </div>
+        </section>
+        <section id="about">
+            <div class ="chapter">
+                <div class ="set-border">
+                    <h2 class = "sub-title animate__animated">I am</h2>
+                    <ul class = "sub-text self-intro">
+                        <li class = "self-intro-child">meijo-university student</li>
+                        <li class = "self-intro-child">a student who wants to be an engineer</li>
+                    </ul>
+                </div>
+                <img class ="sb-img" src ="image/iam.jpg">
+            </div>
+        </section>
+        <section id="skill">
+            <div class ="chapter">
+                <div id ="reverse1" class ="set-border">
+                    <h2 class = "sub-title animate__animated">I have</h2>
+                    <ul class = "sub-text skill">
+                        <li>HTML ability</li>
+                        <li>CSS ability</li>
+                        <li>C language ability</li>
+                        <li>Python ability</li>
+                </div>
+                <img id ="reverse2" class ="sb-img" src ="image/ihave.jpg">
+            </div>
+        </section>
+        <section id="work">
+            <div class ="chapter">
+                <div class ="set-border">
+                    <h2 class = "sub-title animate__animated">I make</h2>
+                    <ul class = "sub-text work">
+                        <li><a href="">Portfolio</a></li>
+                        <li>Blog: <a href = "https://qiita.com/sayyyyyy"><img src = "image/qiita.png" alt = "blog" width = 15% height = 15%></a></li>
+                        <li><a href="https://github.com/sayyyyyy/knowledge_library">Knowledge Library</a></li>
+                    </ul>
+                </div>
+                <img class ="sb-img" src ="image/imake.jpg">
+            </div>
+        </section>
+        <section id="contact">
+            <div class ="chapter">
+                <h2 class = "sub-title animate__animated">Contact</h2>
+                <a href ="https://twitter.com/sayyyyyy46"><i id ="twitter-icon" class="fa fa-twitter fa-4x"></i></a>
+                <!--<form>
+                    <div class = "form-group">
+                        <label for = "form-name">Name</label>
+                        <input type = "name" class = "form-control input-lg" id = "form-name" placeholder = "Name">
+                    </div>
+                    <div class = "form-group">
+                        <label for = "form-email">Email</label>
+                        <input type = "email" class = "form-control" id = "form-email" placeholder = "Email">
+                    </div>
+                    <div class = "form-group">
+                        <label for = "form-title">Title</label>
+                        <input type = "title" class = "form-control" id = "form-title" placeholder = "Title">
+                    </div>
+                    <div class = "form-group">
+                        <label for = "form-text">Text</label>
+                        <textarea class="form-control" rows = 5 class = "form-control" id = "form-text" placeholder = "Text"></textarea>
+                    </div>
+                </form>-->
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p class = "copyright">&copy 2021 sayyyyyy</p>
+    </footer>
+
+</body>
+</html>
