@@ -160,7 +160,12 @@ form {
     left: 100px;
 }
 
-
+/* Middle Size */
+@media (max-width: 1150px) {
+    .main-nav {
+        margin-left: 15vw;
+    }
+}
 
 /* Small Size */
 
